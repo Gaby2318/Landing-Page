@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RollZone - Tienda especializada en patines de ruedas (quad, en línea, velocidad), protecciones certificadas y accesorios en Bolivia. Asesoría personalizada, garantía y envíos a todo el país.">
+  <meta name="keywords" content="patines Bolivia, patines quad, patines en línea, roller skate La Paz, Santa Cruz, Cochabamba, protecciones skate, RollZone">
+  <meta name="theme-color" content="#0d0f12">
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RollZone | Rueda a tu manera - Tienda de Patines en Bolivia">
+  <meta property="og:description" content="Especialistas en patines de ruedas quad, inline, velocidad y protecciones. Elige tu talla ideal con nuestra asesoría experta.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&w=1200&q=80">
+
+  <title>RollZone | Rueda a tu manera - Patines y Protecciones</title>
+
+  <!-- Google Fonts: Montserrat (Headings) e Inter (Cuerpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de Notificación Superior -->
+  <aside class="top-banner" aria-label="Aviso promocional">
+    <div class="container banner-content">
+      <span class="banner-badge">Envíos a toda Bolivia</span>
+      <p>Asesoría gratuita de talla personalizada por WhatsApp | <strong>Garantía de ajuste 100%</strong></p>
+    </div>
+  </aside>
+
+  <!-- NAVEGACIÓN PRINCIPAL -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="RollZone Inicio">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="7" cy="17" r="3.5"></circle>
+            <circle cx="17" cy="17" r="3.5"></circle>
+            <path d="M5 8h10a4 4 0 0 1 4 4v1.5H4V12a4 4 0 0 1 1-2.8L7 7"></path>
+            <path d="M7 17h10"></path>
+          </svg>
+        </span>
+        <span class="brand-text">ROLL<span class="brand-accent">ZONE</span></span>
+      </a>
+
+      <!-- Menú de Enlaces Desktop -->
+      <nav class="nav-menu" id="navMenu" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#categorias" class="nav-link">Categorías</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="#guia-tallas" class="nav-link">Guía de Tallas</a></li>
+          <li><a href="#primeros-pasos" class="nav-link">Primeros Pasos</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#equipo" class="nav-link">Equipo</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <div class="nav-mobile-actions">
+          <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Deseo%20asesoramiento%20para%20elegir%20mis%20patines." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            Asesoría WhatsApp
+          </a>
+        </div>
+      </nav>
+
+      <!-- Botón de Acción Rápida (Desktop) -->
+      <div class="nav-actions">
+        <a href="#productos" class="btn btn-secondary btn-sm nav-cta-desktop">Ver Catálogo</a>
+        <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Quiero%20conocer%20los%20patines%20disponibles." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta-desktop">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          Chat WhatsApp
+        </a>
+
+        <!-- Botón Hamburguesa Móvil -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Overlay móvil para cerrar al hacer clic afuera -->
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-pill">
+            <span class="pill-dot"></span>
+            <span>Tienda Especializada en Bolivia &bull; Quads &amp; Inlines</span>
+          </div>
+          <h1 class="hero-title">
+            Encuentra tu ritmo, <br>
+            <span class="text-gradient">rueda a tu manera.</span>
+          </h1>
+          <p class="hero-description">
+            Olvídate de la frustración de comprar patines sin saber tu talla o tipo adecuado. En <strong>RollZone</strong> te equipamos con patines de alto rendimiento, protecciones certificadas y la asesoría técnica personalizada que necesitas para rodar seguro desde el primer día.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#productos" class="btn btn-primary btn-lg">
+              <span>Ver catálogo</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="btn-icon" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Quisiera%20asesor%C3%ADa%20personalizada%20para%20elegir%20mis%20patines." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon text-turquoise" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Escríbenos por WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Métricas de Confianza -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">+2,800</span>
+              <span class="stat-label">Patinadores equipados</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Marcas certificadas</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">9 Deptos.</span>
+              <span class="stat-label">Envíos garantizados</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen Hero y Badges Flotantes -->
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&w=1000&q=80" alt="Patinadora urbana disfrutando en patines quad RollZone" class="hero-img" loading="eager" width="600" height="700">
+            <div class="hero-badge badge-top-right">
+              <span class="badge-icon">⚡</span>
+              <div>
+                <strong>Asesoría de Talla</strong>
+                <p>Te guiamos en cm exactos</p>
+              </div>
+            </div>
+            <div class="hero-badge badge-bottom-left">
+              <span class="badge-icon">🛡️</span>
+              <div>
+                <strong>Protección Total</strong>
+                <p>Cascos y kits certificados</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. CATEGORÍAS -->
+    <section class="section categories-section" id="categorias">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">ENCUENTRA TU DISCIPLINA</span>
+          <h2 class="section-title">Explora Nuestras Categorías</h2>
+          <p class="section-desc">Diseñadas para cada nivel: desde tus primeros deslizamientos urbanos hasta trucos en skatepark y maratones de velocidad.</p>
+        </div>
+
+        <div class="categories-grid">
+          <article class="category-card reveal" data-filter-target="quad">
+            <div class="category-image-wrap">
+              <img src="https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&w=800&q=80" alt="Patines Quad clásicos 4 ruedas de estilo retro y baile" loading="lazy">
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-content">
+              <span class="category-badge">Clásico &amp; Estilo</span>
+              <h3 class="category-name">Patines Quad</h3>
+              <p class="category-text">4 ruedas en paralelo. Perfectos para baile, roller dance, principiantes y paseos recreativos con estilo retro.</p>
+              <a href="#productos" class="category-link" data-filter="quad">
+                <span>Ver modelos Quad</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="inline">
+            <div class="category-image-wrap">
+              <img src="https://images.unsplash.com/photo-1520095972714-909e91b038e5?auto=format&fit=crop&w=800&q=80" alt="Patines en línea inline freeskate para asfalto urbano" loading="lazy">
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-content">
+              <span class="category-badge">Urbano &amp; Freeskate</span>
+              <h3 class="category-name">Patines En Línea (Inline)</h3>
+              <p class="category-text">Ruedas en hilera con bota rígida o semi-rígida. Gran maniobrabilidad, absorción de baches y velocidad urbana.</p>
+              <a href="#productos" class="category-link" data-filter="inline">
+                <span>Ver modelos Inline</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="velocidad">
+            <div class="category-image-wrap">
+              <img src="https://images.unsplash.com/photo-1565992441121-4367c2967103?auto=format&fit=crop&w=800&q=80" alt="Patines de velocidad de bota baja y 3 ruedas grandes" loading="lazy">
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-content">
+              <span class="category-badge">Competición &amp; Fondo</span>
+              <h3 class="category-name">Patines de Velocidad</h3>
+              <p class="category-text">Chasis de aluminio aeroespacial, bota de carbono de perfil bajo y ruedas de 100mm a 125mm para máxima aceleración.</p>
+              <a href="#productos" class="category-link" data-filter="velocidad">
+                <span>Ver Speed Skates</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="protecciones">
+            <div class="category-image-wrap">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" alt="Protecciones completas con cascos, rodilleras y coderas" loading="lazy">
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-content">
+              <span class="category-badge">Seguridad Certificada</span>
+              <h3 class="category-name">Protecciones</h3>
+              <p class="category-text">Cascos multimpacto, rodilleras con acolchado EVA, coderas y muñequeras ergonómicas con férula protectora.</p>
+              <a href="#productos" class="category-link" data-filter="protecciones">
+                <span>Ver Protecciones</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="accesorios">
+            <div class="category-image-wrap">
+              <img src="https://images.unsplash.com/photo-1528731708534-816fe59f90cb?auto=format&fit=crop&w=800&q=80" alt="Accesorios para patines como ruedas de repuesto, herramientas y rodamientos" loading="lazy">
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-content">
+              <span class="category-badge">Upgrades &amp; Repuestos</span>
+              <h3 class="category-name">Accesorios &amp; Taller</h3>
+              <p class="category-text">Ruedas LED luminosas, rodamientos de precisión ABEC 7/9/11, llaves multifunción T-Tool, frenos y mochilas portapatines.</p>
+              <a href="#productos" class="category-link" data-filter="accesorios">
+                <span>Ver Accesorios</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PRODUCTOS DESTACADOS CON FILTRO JS -->
+    <section class="section products-section bg-darker" id="productos">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">SELECCIÓN DESTACADA</span>
+          <h2 class="section-title">Nuestros Patines y Accesorios Favoritos</h2>
+          <p class="section-desc">Equipos probados en calles y pistas bolivianas. Precios claros en Bolivianos (Bs) y asesoría garantizada.</p>
+
+          <div class="filter-controls" role="group" aria-label="Filtro de productos">
+            <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+            <button type="button" class="filter-btn" data-filter="quad">Quads</button>
+            <button type="button" class="filter-btn" data-filter="inline">En Línea</button>
+            <button type="button" class="filter-btn" data-filter="velocidad">Velocidad</button>
+            <button type="button" class="filter-btn" data-filter="protecciones">Protecciones</button>
+            <button type="button" class="filter-btn" data-filter="accesorios">Accesorios</button>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- Producto 1: Quad -->
+          <article class="product-card reveal" data-category="quad">
+            <div class="product-badge">Top Ventas</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&w=700&q=80" alt="RollZone Sunset Holographic Quad" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Patines Quad</span>
+              <h3 class="product-title">RollZone Sunset Disco Quad</h3>
+              <p class="product-desc">Bota alta reforzada con acolchado de felpa, base de aluminio indeformable y ruedas de uretano 58mm 82A para calle y pista.</p>
+              <div class="product-specs">
+                <span>Ruedas 58mm</span>
+                <span>ABEC-7</span>
+                <span>Aluminio</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">790 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="RollZone Sunset Disco Quad" data-product-price="790 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Producto 2: Inline Freeskate -->
+          <article class="product-card reveal" data-category="inline">
+            <div class="product-badge badge-pro">Nivel Intermedio / Pro</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1520095972714-909e91b038e5?auto=format&fit=crop&w=700&q=80" alt="Apex Pro 80 Inline Freeskate" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Patines En Línea</span>
+              <h3 class="product-title">Apex Street 80 Pro Urban</h3>
+              <p class="product-desc">Carcasa rígida con shock absorber en talón, chasis mecanizado CNC y ruedas 80mm 85A. Máximo control en saltos y giros rápidos.</p>
+              <div class="product-specs">
+                <span>Ruedas 80mm 85A</span>
+                <span>ABEC-9</span>
+                <span>Shock Absorber</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">1,150 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="Apex Street 80 Pro Urban" data-product-price="1,150 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Producto 3: Velocidad Triskate -->
+          <article class="product-card reveal" data-category="velocidad">
+            <div class="product-badge badge-speed">Velocidad Pura</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1565992441121-4367c2967103?auto=format&fit=crop&w=700&q=80" alt="HyperSpeed 3x110 Marathon Edition" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Patines de Velocidad</span>
+              <h3 class="product-title">HyperSpeed 3x110 Marathon</h3>
+              <p class="product-desc">Configuración Triskate 3 ruedas de 110mm para mantener velocidad continua con menos esfuerzo. Bota semi-baja termo-moldeable.</p>
+              <div class="product-specs">
+                <span>Ruedas 3x110mm</span>
+                <span>Magnesio CNC</span>
+                <span>Termomoldeable</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">1,890 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="HyperSpeed 3x110 Marathon" data-product-price="1,890 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Producto 4: Protecciones Pack -->
+          <article class="product-card reveal" data-category="protecciones">
+            <div class="product-badge">Indispensable</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80" alt="RollShield Pro Saver Pack Protecciones" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Protecciones</span>
+              <h3 class="product-title">RollShield Pro Tri-Pack</h3>
+              <p class="product-desc">Kit completo: rodilleras, coderas y muñequeras con férula anatómica. Tejido transpirable CoolMax y correas elásticas de doble ajuste.</p>
+              <div class="product-specs">
+                <span>Rodillera + Codera</span>
+                <span>Muñequera</span>
+                <span>Certificado CE</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">320 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="RollShield Pro Tri-Pack Protecciones" data-product-price="320 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Producto 5: Casco Urbano -->
+          <article class="product-card reveal" data-category="protecciones">
+            <div class="product-badge">Seguridad Premium</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1559348349-86f1f65817fe?auto=format&fit=crop&w=700&q=80" alt="Casco RollZone AeroDome Mate" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Protecciones</span>
+              <h3 class="product-title">Casco AeroDome Skate Matte</h3>
+              <p class="product-desc">Carcasa de polímero ABS de alto impacto con 12 canales de ventilación activa y rueda micro-ajustable trasera para sujeción perfecta.</p>
+              <div class="product-specs">
+                <span>Carcasa ABS</span>
+                <span>Ajuste Craneal</span>
+                <span>380 gramos</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">240 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="Casco AeroDome Skate Matte" data-product-price="240 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Producto 6: Ruedas LED + Rodamientos -->
+          <article class="product-card reveal" data-category="accesorios">
+            <div class="product-badge">Efecto Glow</div>
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1528731708534-816fe59f90cb?auto=format&fit=crop&w=700&q=80" alt="Pack Ruedas LED Luminous Glow con rodamientos" loading="lazy">
+            </div>
+            <div class="product-body">
+              <span class="product-cat-tag">Accesorios</span>
+              <h3 class="product-title">Luminous Neon Wheelpack (8 un.)</h3>
+              <p class="product-desc">Ruedas con luces LED dinamo integradas (sin baterías). Incluye 16 rodamientos ABEC-9 lubricados de alta velocidad y separadores magnéticos.</p>
+              <div class="product-specs">
+                <span>8 Ruedas LED</span>
+                <span>16x ABEC-9</span>
+                <span>Para Quads o Inline</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price-wrapper">
+                  <span class="price-currency">Precio</span>
+                  <span class="product-price">380 <small>Bs</small></span>
+                </div>
+                <button type="button" class="btn btn-consultar" data-product-name="Luminous Neon Wheelpack (8 un.)" data-product-price="380 Bs">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  Consultar
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Banner de Catálogo Completo -->
+        <div class="catalog-callout reveal">
+          <div class="callout-content">
+            <h3>¿Buscas un modelo específico o marcas como Powerslide, Flying Eagle o Rollerblade?</h3>
+            <p>Contamos con más de 45 referencias en almacén listas para despacho inmediato en toda Bolivia.</p>
+          </div>
+          <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Busco%20un%20modelo%20espec%C3%ADfico%20de%20patines." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Pedir Catálogo PDF en WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. POR QUÉ ELEGIRNOS (4 BENEFICIOS) -->
+    <section class="section benefits-section" id="beneficios">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">LA DIFERENCIA ROLLZONE</span>
+          <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+          <p class="section-desc">Sabemos lo frustrante que es comprar patines genéricos o que te queden incómodos. Por eso creamos una experiencia pensada por y para patinadores.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card reveal">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Asesoría Personalizada</h3>
+            <p class="benefit-desc">No te vendemos por vender. Nuestro equipo analiza la forma de tu pie, tu peso, tu nivel y tus metas para recomendarte el tipo y la talla exacta.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Productos 100% Originales</h3>
+            <p class="benefit-desc">Trabajamos únicamente con marcas oficiales y homologadas con chasis de aluminio real, rodamientos duraderos y materiales no tóxicos.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Garantía Real y Taller</h3>
+            <p class="benefit-desc">Garantía directa de 6 meses contra defectos de fabricación, ajuste de talla sin costo en nuestros showrooms y repuestos siempre en stock.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Envíos a Todo el País</h3>
+            <p class="benefit-desc">Despachos rápidos y asegurados a La Paz, Cochabamba, Santa Cruz, Sucre, Tarija, Oruro, Potosí, Beni y Pando en 24 a 48 horas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GUÍA DE TALLAS CON CALCULADORA INTERACTIVA -->
+    <section class="section size-guide-section bg-darker" id="guia-tallas">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">CERO DUDAS DE TALLA</span>
+          <h2 class="section-title">Guía de Tallas y Ajuste Perfecto</h2>
+          <p class="section-desc">Los patines no se compran igual que los tenis comunes: el pie debe quedar firme sin comprimir los dedos. Sigue estos 3 pasos:</p>
+        </div>
+
+        <div class="size-guide-layout">
+          <!-- Instrucciones de Medición -->
+          <div class="measure-steps reveal">
+            <div class="measure-step-item">
+              <div class="step-num-badge">1</div>
+              <div class="step-details">
+                <h4>Pega una hoja a la pared</h4>
+                <p>Coloca una hoja de papel en el suelo contra una pared lisa. Apoya tu talón bien pegado a la pared con las medias que usarás para patinar.</p>
+              </div>
+            </div>
+
+            <div class="measure-step-item">
+              <div class="step-num-badge">2</div>
+              <div class="step-details">
+                <h4>Marca la punta del dedo más largo</h4>
+                <p>Con un lápiz vertical a 90°, traza una línea en el punto más sobresaliente (suele ser el dedo gordo o el segundo dedo).</p>
+              </div>
+            </div>
+
+            <div class="measure-step-item">
+              <div class="step-num-badge">3</div>
+              <div class="step-details">
+                <h4>Mide en centímetros y suma 0.5 cm</h4>
+                <p>Usa una regla recta para medir desde el borde de la hoja hasta la marca. Si mides 25.0 cm, tu longitud ideal de plantilla es 25.5 cm.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Calculadora Interactiva JS de Talla -->
+          <div class="size-calculator-card reveal">
+            <div class="calc-header">
+              <span class="calc-tag">HERRAMIENTA ROLLZONE</span>
+              <h3>Calcula tu Talla Recomendada</h3>
+              <p>Ingresa la medida exacta de tu pie en centímetros:</p>
+            </div>
+
+            <form id="sizeCalcForm" class="size-calc-form" onsubmit="return false;">
+              <div class="form-group">
+                <label for="footLengthInput">Longitud de tu pie (en cm):</label>
+                <div class="input-with-unit">
+                  <input type="number" id="footLengthInput" min="20" max="32" step="0.5" placeholder="Ej. 25.5" required>
+                  <span class="input-unit">cm</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="skateTypeSelect">Tipo de patín deseado:</label>
+                <select id="skateTypeSelect">
+                  <option value="quad">Patines Quad (Bota textil / vinil)</option>
+                  <option value="inline">Patines En Línea (Carcasa rígida)</option>
+                  <option value="velocidad">Patines Velocidad (Horma ceñida)</option>
+                </select>
+              </div>
+
+              <button type="button" id="btnCalculateSize" class="btn btn-primary btn-block">
+                Calcular Talla Ideal
+              </button>
+
+              <!-- Resultado Dinámico JS -->
+              <div class="calc-result" id="calcResult" style="display: none;">
+                <div class="result-badge-box">
+                  <span class="result-label">Talla Recomendada:</span>
+                  <span class="result-value" id="resultSize">EU 40 / US 7.5</span>
+                </div>
+                <p class="result-tip" id="resultTip">Ajuste recomendado con margen de 5 mm para amortiguación de calcetín técnico.</p>
+                <a href="https://wa.me/59177890123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline mt-2" id="resultWhatsAppBtn">
+                  Confirmar stock de esta talla por WhatsApp
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Tabla Comparativa Rápida -->
+        <div class="size-table-wrapper reveal">
+          <h4 class="table-title">Tabla de Equivalencias Generales</h4>
+          <div class="table-responsive">
+            <table class="size-table">
+              <thead>
+                <tr>
+                  <th>Longitud del Pie (cm)</th>
+                  <th>Talla EU</th>
+                  <th>Talla US Hombre</th>
+                  <th>Talla US Mujer</th>
+                  <th>Recomendación RollZone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>22.5 - 23.0 cm</td>
+                  <td><strong>36</strong></td>
+                  <td>4.5</td>
+                  <td>5.5 - 6.0</td>
+                  <td>Junior / Adulto Small</td>
+                </tr>
+                <tr>
+                  <td>23.5 - 24.0 cm</td>
+                  <td><strong>37 - 38</strong></td>
+                  <td>5.5 - 6.0</td>
+                  <td>6.5 - 7.0</td>
+                  <td>Horma estándar</td>
+                </tr>
+                <tr>
+                  <td>24.5 - 25.0 cm</td>
+                  <td><strong>39</strong></td>
+                  <td>7.0</td>
+                  <td>8.0</td>
+                  <td>Ajuste universal</td>
+                </tr>
+                <tr>
+                  <td>25.5 - 26.0 cm</td>
+                  <td><strong>40 - 41</strong></td>
+                  <td>7.5 - 8.0</td>
+                  <td>9.0</td>
+                  <td>Revisar si empeine es ancho</td>
+                </tr>
+                <tr>
+                  <td>26.5 - 27.0 cm</td>
+                  <td><strong>42</strong></td>
+                  <td>9.0</td>
+                  <td>10.0</td>
+                  <td>Ideal bota rígida urbana</td>
+                </tr>
+                <tr>
+                  <td>27.5 - 28.5 cm</td>
+                  <td><strong>43 - 44</strong></td>
+                  <td>10.0 - 11.0</td>
+                  <td>11.5+</td>
+                  <td>Chasis reforzado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PRIMEROS PASOS (3 PASOS) -->
+    <section class="section steps-section" id="primeros-pasos">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">COMIENZA SIN MIEDO</span>
+          <h2 class="section-title">Primeros Pasos en el Patinaje</h2>
+          <p class="section-desc">Cualquiera puede aprender a rodar. Con el método correcto y las precauciones necesarias, disfrutarás desde tus primeros 15 minutos.</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Paso 1 -->
+          <div class="step-card reveal">
+            <div class="step-badge">Paso 01</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="step-title">Elige tu Tipo de Patín</h3>
+            <p class="step-text">Si buscas baile, giros lentos y estética clásica, elige <strong>Quads</strong>. Si quieres recorrer la ciudad, salvar irregularidades del asfalto o ganar velocidad, opta por <strong>Inline</strong>. Nosotros te orientamos según tu objetivo.</p>
+            <ul class="step-checklist">
+              <li>Evalúa la superficie donde practicarás</li>
+              <li>Elige bota con sujeción de tobillo firme</li>
+            </ul>
+          </div>
+
+          <!-- Paso 2 -->
+          <div class="step-card reveal">
+            <div class="step-badge">Paso 02</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Equípate con Protecciones</h3>
+            <p class="step-text">El mayor secreto para aprender rápido es <strong>patinar sin miedo a caerte</strong>. Con casco, muñequeras, rodilleras y coderas puestas, cualquier tropiezo se convierte en una anécdota sin lesiones ni raspaduras.</p>
+            <ul class="step-checklist">
+              <li>La muñequera con placa es obligatoria</li>
+              <li>Casco abrochado a 2 dedos de la barbilla</li>
+            </ul>
+          </div>
+
+          <!-- Paso 3 -->
+          <div class="step-card reveal">
+            <div class="step-badge">Paso 03</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="step-title">Aprende la Postura Básica</h3>
+            <p class="step-text">Flexiona las rodillas como si fueras a sentarte ligeramente, inclina el torso levemente hacia adelante con la mirada al horizonte y pies en forma de "V" suave. ¡Nunca con las rodillas rígidas!</p>
+            <ul class="step-checklist">
+              <li>Practica primero sobre césped o alfombra</li>
+              <li>Aprende a caer hacia adelante en rodillas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. TESTIMONIOS (3 CLIENTES FICTICIOS) -->
+    <section class="section testimonials-section bg-darker" id="testimonios">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">COMUNIDAD ROLLZONE</span>
+          <h2 class="section-title">Lo Que Dicen Quienes Ya Ruedan Con Nosotros</h2>
+          <p class="section-desc">Historias reales de personas que comenzaron desde cero o mejoraron su técnica con el equipo indicado.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "Tenía miedo de equivocarme de talla comprando por internet. Me pidieron fotos de mi pie medido en la pared y me mandaron los patines exactos a Cochabamba. La calidad de los materiales es otro nivel comparada con patines de supermercado."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Foto de perfil de Sofía Miranda" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <strong class="author-name">Sofía Miranda</strong>
+                <span class="author-role">Inició en Roller Dance &bull; Cochabamba</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "Compré los Apex Street 80 para moverme por Santa Cruz y saltar veredas. El chasis de aluminio aguanta todo y el shock absorber se siente de maravilla en asfalto rugoso. Además el asesoramiento por WhatsApp fue rápido y sincero."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80" alt="Foto de perfil de Carlos Banzer" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <strong class="author-name">Carlos Banzer</strong>
+                <span class="author-role">Patinador Freeskate &bull; Santa Cruz</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "Le compramos el kit completo con protecciones a mi hija de 13 años. Nos explicaron pacientemente cada detalle de seguridad para cuidar sus muñecas y rodillas. Llegó en 24 horas a La Paz en su caja impecable."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Foto de perfil de Lucía Arze" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <strong class="author-name">Lucía Arze</strong>
+                <span class="author-role">Mamá patinadora &bull; La Paz</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. GALERÍA URBANA -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">VIDA SOBRE RUEDAS</span>
+          <h2 class="section-title">Galería de la Comunidad</h2>
+          <p class="section-desc">Instantes capturados en nuestras rutas nocturnas, talleres de mantenimiento y sesiones libres de skatepark.</p>
+        </div>
+
+        <div class="gallery-bento-grid">
+          <figure class="gallery-item gallery-large reveal">
+            <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?auto=format&fit=crop&w=900&q=80" alt="Patinadora al atardecer realizando trucos con patines quad" loading="lazy">
+            <figcaption class="gallery-caption">Sesión Sunset Quad en la costanera</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1520095972714-909e91b038e5?auto=format&fit=crop&w=600&q=80" alt="Patinador en línea sorteando obstáculos urbanos" loading="lazy">
+            <figcaption class="gallery-caption">Freeskate Urbano de Precisión</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=600&q=80" alt="Grupo de amigos patinadores disfrutando de una tarde en pista" loading="lazy">
+            <figcaption class="gallery-caption">Ruta Urbana de Fin de Semana</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&w=600&q=80" alt="Detalle de botas de patines quad con cordones de colores" loading="lazy">
+            <figcaption class="gallery-caption">Customización de Ruedas y Bota</figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-wide reveal">
+            <img src="https://images.unsplash.com/photo-1565992441121-4367c2967103?auto=format&fit=crop&w=900&q=80" alt="Entrenamiento de velocidad en pista de patinaje" loading="lazy">
+            <figcaption class="gallery-caption">Entrenamiento de Velocidad &amp; Maratón</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. EQUIPO ROLLZONE -->
+    <section class="section team-section bg-darker" id="equipo">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">NUESTROS EXPERTOS</span>
+          <h2 class="section-title">El Equipo Detrás de RollZone</h2>
+          <p class="section-desc">Patinadores apasionados, instructores y técnicos dedicados a que cada persona ruede con el mejor equipamiento.</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Miembro 1 -->
+          <article class="team-card reveal">
+            <div class="team-image-box">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Mateo Quispe, co-fundador y rider inline" loading="lazy">
+              <div class="team-socials">
+                <a href="#contacto" aria-label="Instagram de Mateo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Mateo Quispe</h3>
+              <span class="team-role">Co-Fundador &amp; Rider Freeskate</span>
+              <p class="team-bio">Más de 9 años en patinaje urbano e inline speed. Te ayuda a escoger la configuración de chasis y ruedas según tu peso y terreno.</p>
+            </div>
+          </article>
+
+          <!-- Miembro 2 -->
+          <article class="team-card reveal">
+            <div class="team-image-box">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Camila Torrico, especialista Quad y roller dance" loading="lazy">
+              <div class="team-socials">
+                <a href="#contacto" aria-label="Instagram de Camila"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Camila Torrico</h3>
+              <span class="team-role">Especialista Quad &amp; Roller Dance</span>
+              <p class="team-bio">Instructora certificada de quads artísticos y urbanos. Experta en amortiguación de cushions, durezas de ruedas y ajuste de freno.</p>
+            </div>
+          </article>
+
+          <!-- Miembro 3 -->
+          <article class="team-card reveal">
+            <div class="team-image-box">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Javier Soliz, jefe de taller y servicio técnico" loading="lazy">
+              <div class="team-socials">
+                <a href="#contacto" aria-label="Instagram de Javier"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Javier Soliz</h3>
+              <span class="team-role">Jefe de Taller &amp; Mantenimiento</span>
+              <p class="team-bio">Especialista en limpieza ultrasónica de rodamientos, rotación de ruedas, termo-moldeado de botas y reemplazo de remaches.</p>
+            </div>
+          </article>
+
+          <!-- Miembro 4 -->
+          <article class="team-card reveal">
+            <div class="team-image-box">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80" alt="Valeria Morales, asesora de seguridad y fitting familiar" loading="lazy">
+              <div class="team-socials">
+                <a href="#contacto" aria-label="Instagram de Valeria"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Valeria Morales</h3>
+              <span class="team-role">Asesora de Seguridad &amp; Fitting</span>
+              <p class="team-bio">Enfocada en principiantes, niños y familias. Se asegura de que cada miembro salga con la talla exacta y protecciones certificadas.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CONTACTO Y UBICACIÓN -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-subtitle">ESTAMOS PARA AYUDARTE</span>
+          <h2 class="section-title">Contáctanos y Visítanos</h2>
+          <p class="section-desc">Escríbenos para despejar cualquier consulta técnica o ven a probarte los patines en nuestro showroom.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Información y Canales Directos -->
+          <div class="contact-info-panel reveal">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="info-text">
+                <h4>Showroom Principal</h4>
+                <p>Av. Montenegro esq. Calle 18, San Miguel (Zona Sur)<br>La Paz, Bolivia</p>
+                <small class="text-muted">Puntos autorizados también en Santa Cruz (Equipetrol) y Cochabamba (Cala Cala).</small>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="info-text">
+                <h4>Horarios de Atención</h4>
+                <p>Lunes a Viernes: 10:00 - 19:30<br>Sábados: 10:00 - 18:00 (Taller &amp; Fitting en vivo)<br>Domingos: Rutas comunitarias (WhatsApp activo)</p>
+              </div>
+            </div>
+
+            <div class="info-card highlight-card">
+              <div class="info-icon text-turquoise">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </div>
+              <div class="info-text">
+                <h4>WhatsApp Oficial</h4>
+                <p><strong>+591 77890123</strong></p>
+                <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Deseo%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="link-styled">
+                  Iniciar chat directo ahora &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="socials-container">
+              <h4>Síguenos en Redes</h4>
+              <div class="social-links-list">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram de RollZone">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                  <span>@rollzone.bo</span>
+                </a>
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok de RollZone">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                  <span>@rollzone_bo</span>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook de RollZone">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                  <span>RollZone Bolivia</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulario de Contacto Funcional -->
+          <div class="contact-form-panel reveal">
+            <div class="form-card">
+              <h3>Envíanos un Mensaje</h3>
+              <p>Te responderemos por correo o WhatsApp en menos de 2 horas hábiles.</p>
+
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="contactName">Nombre completo <span class="required-star">*</span></label>
+                  <input type="text" id="contactName" name="name" placeholder="Ej. Camila Vargas" required>
+                  <span class="field-error-msg" id="nameError">Por favor, ingresa tu nombre.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail">Correo electrónico <span class="required-star">*</span></label>
+                  <input type="email" id="contactEmail" name="email" placeholder="camila@ejemplo.com" required>
+                  <span class="field-error-msg" id="emailError">Ingresa un correo electrónico válido.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactCity">Ciudad de envío / consulta</label>
+                  <select id="contactCity" name="city">
+                    <option value="La Paz">La Paz</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Cochabamba">Cochabamba</option>
+                    <option value="Sucre">Sucre</option>
+                    <option value="Tarija">Tarija</option>
+                    <option value="Oruro">Oruro</option>
+                    <option value="Potosí">Potosí</option>
+                    <option value="Beni">Beni</option>
+                    <option value="Pando">Pando</option>
+                    <option value="Otra">Otra localidad</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage">¿En qué patines o equipo estás interesado? <span class="required-star">*</span></label>
+                  <textarea id="contactMessage" name="message" rows="4" placeholder="Cuéntanos si eres principiante, qué patines te gustaron o si tienes dudas de talla..." required></textarea>
+                  <span class="field-error-msg" id="messageError">El mensaje debe tener al menos 10 caracteres.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-submit" id="btnSubmit">
+                  <span>Enviar Consulta</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. PIE DE PÁGINA (FOOTER) -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <a href="#hero" class="nav-brand">
+          <span class="brand-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="7" cy="17" r="3.5"></circle>
+              <circle cx="17" cy="17" r="3.5"></circle>
+              <path d="M5 8h10a4 4 0 0 1 4 4v1.5H4V12a4 4 0 0 1 1-2.8L7 7"></path>
+              <path d="M7 17h10"></path>
+            </svg>
+          </span>
+          <span class="brand-text">ROLL<span class="brand-accent">ZONE</span></span>
+        </a>
+        <p class="footer-slogan">Rueda a tu manera.</p>
+        <p class="footer-about">La tienda referente de patinadores en Bolivia. Equipos originales, asesoría de ajuste y la mejor comunidad sobre ruedas.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navegación</h4>
+        <ul class="footer-links">
+          <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#productos">Productos Destacados</a></li>
+          <li><a href="#beneficios">Por qué Elegirnos</a></li>
+          <li><a href="#guia-tallas">Guía de Tallas</a></li>
+          <li><a href="#primeros-pasos">Primeros Pasos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Categorías Populares</h4>
+        <ul class="footer-links">
+          <li><a href="#productos" data-footer-filter="quad">Patines Quad 4 Ruedas</a></li>
+          <li><a href="#productos" data-footer-filter="inline">Patines En Línea Freeskate</a></li>
+          <li><a href="#productos" data-footer-filter="velocidad">Patines de Velocidad 3x110</a></li>
+          <li><a href="#productos" data-footer-filter="protecciones">Cascos y Protecciones Pro</a></li>
+          <li><a href="#productos" data-footer-filter="accesorios">Ruedas LED &amp; Rodamientos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Atención y Soporte</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/59177890123" target="_blank" rel="noopener noreferrer">Asesoría WhatsApp (+591 77890123)</a></li>
+          <li><a href="#guia-tallas">Calculadora de Talla en CM</a></li>
+          <li><a href="#contacto">Servicio Técnico y Taller</a></li>
+          <li><a href="#contacto">Envíos a Nivel Nacional</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 RollZone Bolivia. Todos los derechos reservados.</p>
+        <p class="footer-credit">Diseñado para la comunidad skater &bull; Hecho con pasión urbana.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a href="https://wa.me/59177890123?text=Hola%20RollZone!%20Quisiera%20asesoramiento%20para%20elegir%20mis%20patines." target="_blank" rel="noopener noreferrer" class="whatsapp-float-btn" aria-label="Escríbenos por WhatsApp" id="whatsappFloat">
+    <div class="whatsapp-pulse" aria-hidden="true"></div>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="wa-icon" aria-hidden="true">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+    <span class="whatsapp-tooltip">¿Dudas de talla? ¡Escríbenos!</span>
+  </a>
+
+  <!-- BOTÓN VOLVER ARRIBA -->
+  <button type="button" class="back-to-top-btn" id="backToTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- MODAL DE CONSULTA DE PRODUCTO -->
+  <div class="modal-backdrop" id="productModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Cerrar modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">CONSULTA PERSONALIZADA</span>
+        <h3 id="modalProductTitle">Nombre del Producto</h3>
+        <p class="modal-price" id="modalProductPrice">0 Bs</p>
+      </div>
+      <div class="modal-body">
+        <p>¿Quieres verificar disponibilidad de talla, colores o coordinar envío a tu ciudad?</p>
+        <div class="modal-features">
+          <div class="m-feat">✓ Asesoría de talla sin costo</div>
+          <div class="m-feat">✓ Envío asegurado a los 9 departamentos</div>
+          <div class="m-feat">✓ Garantía de 6 meses</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block" id="modalWhatsAppLink">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST DE NOTIFICACIÓN FORMULARIO -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="polite">
+    <div class="toast-icon">✓</div>
+    <div class="toast-content">
+      <strong>¡Mensaje Enviado con Éxito!</strong>
+      <p id="toastMessage">Gracias por contactarnos. Nuestro equipo te responderá muy pronto.</p>
+    </div>
+  </div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
